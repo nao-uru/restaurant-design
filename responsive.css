@@ -1,0 +1,123 @@
+@media screen and (max-width:680px) {
+  .container {
+    width: 100%;
+  }
+
+  .h-fixed {
+    height: 80px;
+  }
+
+  .h-logo {
+    margin: 10px 0 5px 15px;
+    width: 50px;
+    height: auto;
+  }
+
+  .h-img {
+    width: 100%;
+    height: auto;
+    margin: 80px 0 50px 0;
+  }
+
+  .h-nav ul {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .main-img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 50px;
+  }
+
+  .main-img h2 {
+    font-size: 36px;
+  }
+
+  .main-img h2:first-child {
+    margin: 60px 0 50px 20px ;
+  }
+
+  .maps {
+    width: 250px;
+    height: 100px;
+  }
+
+  .s-img {
+    width: 100px;
+    height: auto;
+  }
+
+  section {
+    width: 90%;
+    margin: 50px auto 0px auto;
+  }
+
+  section p {
+    line-height: 1.5;
+  }
+
+  .box {
+    margin: 50px auto 0 auto;
+  }
+
+
+
+  /* SushiのSNS */
+    .sushi-back {
+      margin:80px 0 50px 0;
+    }
+
+    .sushi-title {
+      position: absolute;
+      writing-mode: vertical-rl;
+      top: 5px;
+      left: 35%;
+    }
+
+    .sushi-back .sushi-imgs{
+      height: 100%;
+    }
+
+    .don ,.ikura,.tuna,.ebi {
+      width: auto;
+      height: 50%;
+    }
+
+    .don img,.tuna img,.ebi img ,.ikura img{
+      width: 60%;
+      height: auto;
+    }
+
+
+    .sashimi-img ,.history-img{
+      padding: 10px;
+      width: 30%;
+      height: auto;
+    }
+
+
+
+    /* 共通CSS */
+    dt,dd ,.ditail,.h-nav a,section p{
+      font-size: 12px;
+      }
+  
+      .s-title ,.b-title{
+        font-size: 16px;
+      }
+  
+      .sushi-title {
+        font-size: 24px;
+      }
+  
+      .f-sns .fab {
+        font-size: 30px;
+      }  
+    
+
+
+  
+    
+}
+

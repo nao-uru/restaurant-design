@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Home</title>
+</head>
+<body>
+  <header id="home">
+    <div class="h-fixed">
+      <a href="#"><img class="h-logo" src="./imgs/h-logo.png"></a>
+      <nav class="h-nav">
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="sushi.html"><li class="red">Sushi</li></a>
+          <a href="#information"><li>Information</li></a>
+          <a href="#reservation"><li>Reservation</li></a>
+          <a href="#notion"><li>Notion</li></a>
+          <a href="#"><li><i class="fab fa-twitter"></i></li></a>
+          <a href="#"><li><i class="fab fa-instagram"></i></li></a>
+        </ul>
+      </nav>
+    </div>
+    <img class="h-img" src="./imgs/h-back.jpg">
+  </header>
+  <div class="container">
+    <div class="main-img">
+      <h2>IN GINZA</h2>
+      <h2>80YEARS</h2>
+    </div>
+
+    <section class="special">
+      <h3 class="s-title">Special</h3>
+      <div class="s-flex">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab omnis explicabo impedit illo officia. Illum, rerum sapiente iste officia enim odio ipsum minima similique distinctio tempore cumque nesciunt cum doloremque?</p>
+        <img id="information" class="s-img" src="./imgs/roll.png">
+      </div>
+    </section>
+    <section class="info">
+      <h3 class="s-title">Location</h3>
+      <p>〒000-000<br>
+      <p>Ginza 1-1-1- chuo-ku, Toky<br>
+        TEL: 123-456-789</p>
+        <p>10 minits from Higashiginza station</p>
+        <p>Train: Higashiginz<br>
+        Bus:Higashiginza 1cho-me</p>
+      <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.300959682837!2d139.764069!3d35.66959080000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bef472c0001%3A0xcfcb0363f18109fc!2sGINZA%20SIX!5e0!3m2!1sja!2sjp!4v1613195518829!5m2!1sja!2sjp" width="650" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <h3 class="s-title">Hours</h3>
+      <p>Lunch: 11:00AM - 3:00PM<br>
+        Dinner: 4:00PM - 9:00PM</p>
+        <p id="reservation">Holidy: every Wednesday</p>
+    </section>
+
+    <div class="box">
+      <h3 class="b-title">Reservation</h3>
+      <form action="#" method="POST">
+        <table class="reservation-form">
+            <tr>
+                <th>Name</th>
+                <td>
+                    <input type="text" name="お名前" required>
+                </td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td>
+                    <input type="email" name="メールアドレス" required>
+                </td>
+            </tr>
+            <tr>
+                <th>Ditail</th>
+                <td>
+                    <textarea name="お問い合わせ"></textarea>
+                    <p class="ditail">*Please write number of people and any requirement</p>
+                </td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>
+                <input id="notion" type="submit" value="Comfirm" class="c-button" required>
+
+              </td>
+            </tr>
+          </table>
+        </form>
+
+    </div>
+    <div class="box">
+      <h3 class="b-title">Notion</h3>
+      <dl class="n-list">
+        <dd>2021/2/24</dd>
+        <dt>New menu start!</dt>
+        <dd>2021/1/7</dd>
+        <dt class="red">Open hour will change</dt>
+        <dd>2021/1/1</dd>
+        <dt>Happy new year!</dt>
+        <dd>2020/12/20</dd>
+        <dt>Cristmas special!</dt>
+      </dl>
+    </div>
+  </div>
+  <footer>
+    <div class="f-left">
+      <div class="f-sns">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="f-right">
+      <p>Copyright © Nao osawa</p>
+    </div>
+  </footer>
+</body>
+</html>
