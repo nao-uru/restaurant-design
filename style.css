@@ -85,6 +85,7 @@ section {
 
 .s-flex {
   display: flex;
+  justify-content: center;
 }
 
 .s-img {
