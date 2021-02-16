@@ -103,6 +103,8 @@ section p {
 }
 
 .maps {
+  width: 60%;
+  height: auto;
   margin: 0 0 40px 0;
 }
 
