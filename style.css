@@ -2,9 +2,11 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  max-width: 1440px;
 }
 
 .container {
+  max-width: 1140px;
   width: 78%;
   margin: 0 auto;
 }
